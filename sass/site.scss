@@ -1,5 +1,8 @@
 
 
+body{
+    background-color:$background-color;
+}
 /// Classes auxiliares de padding
 .p{
     &-t-5{
@@ -10,3 +13,44 @@
         margin-top: 10px;
     }
 }
+
+
+.navbar-app{
+    background-color:$navbar-background;
+
+    
+    @include box-shadow( 0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12));
+
+    // &.navbar .navbar-nav {
+    //     display: inline-block;
+    //     float: none;
+    //     vertical-align: top;
+    // }
+    // &.navbar .navbar-brand{
+    //     display: inline-block;
+    //     float: none;
+    //     vertical-align: top;
+    // }
+
+    // &.navbar .navbar-collapse {
+    //     text-align: center;
+    // }
+
+    // .navbar-header {
+    //     float: left;
+     
+
+    //     text-align: center;
+    //     width: 100%;
+    // }
+    .navbar-brand {
+        @include linx($navbar-app-text-color,$navbar-app-text-color,$navbar-app-text-color-hover,$navbar-app-text-color);        
+        // float:none;
+        font-size: 25px;
+    }
+
+    .navbar-nav>li>a{
+        @include linx($navbar-app-text-color,$navbar-app-text-color,$navbar-app-text-color-hover,$navbar-app-text-color);
+    }
+}
+

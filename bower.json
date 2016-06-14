@@ -1,11 +1,11 @@
 {
-  "name": "LiteraturaFOGAP",
-  "description": "",
+  "name": "HelloApp",
+  "description": "A Starter app for Angular and bootstrap, with configured gulp tasks ",
   "main": "",
   "authors": [
     "Charles Michael Stein"
   ],
-  "license": "Copyright",
+  "license": "MIT",
   "homepage": "",
   "private": true,
   "ignore": [
@@ -21,6 +21,7 @@
     "html5shiv": "^3.7.3",
     "respond": "^1.4.2",
     "bootswatch-dist": "superhero",
-    "bootstrap-sass": "bootstrap-sass-official#^3.3.6"
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "angular-ui-router": "^0.3.1"
   }
 }
